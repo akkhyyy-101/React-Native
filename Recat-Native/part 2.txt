@@ -1,4 +1,4 @@
-Use the FlatList component to render a list of items.
+Step 1: Use the FlatList component to render a list of items.
 
 import React, { useState } from 'react';
 import { FlatList, Text, View } from 'react-native';
@@ -35,7 +35,7 @@ function MyComponent() {
 
 
 
-Use the ListHeaderComponent and ListFooterComponent props to render a header and footer respectively.
+Step 2: Use the ListHeaderComponent and ListFooterComponent props to render a header and footer respectively.
 
 
 import React, { useState } from 'react';
@@ -92,11 +92,7 @@ function MyComponent() {
 
 
 
-
-
-
-
-Implement the necessary functions to manage the state of the list.
+Step 3: Implement the necessary functions to manage the state of the list.
 
 import React, { useState } from 'react';
 import { FlatList, Text, View } from 'react-native';
@@ -143,7 +139,8 @@ const MyList = () => {
 
 
 
-Use the renderItem prop to render each item in the list.
+
+Step 4: Use the renderItem prop to render each item in the list.
 
 
 <FlatList
@@ -162,7 +159,7 @@ Use the renderItem prop to render each item in the list.
 
 
 
-Use the keyExtractor prop to specify a unique key for each item.
+Step 5: Use the keyExtractor prop to specify a unique key for each item.
 
 <FlatList
   data={data}
